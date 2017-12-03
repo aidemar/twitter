@@ -6,12 +6,11 @@ body {
 
 }
 
-
 body, html {
 	height: 100%;
 }
 
-
+/*iniciando estilo del encabezado*/
 nav {
 	background-color: #6AD2F3;
 	color: white;
@@ -19,7 +18,9 @@ nav {
 	font-size: 30px;
 	text-align: center;
 }
-
+/* Colonado un background con opacity
+sólo que se colocó a todo, averiguar como aplicarlo
+sólo al background*/
 #section {
 	background-image: url(../assets/images/blue-bike.jpeg);
 	background-size: 100%;
@@ -29,7 +30,7 @@ nav {
  }
 
 
-
+/*Estilos generales para los dos cuadros*/
 #section > .fixed-part, .enter-twitter {
 	width: 470px;
 	height: 250px;
@@ -37,6 +38,7 @@ nav {
 	border-radius: 5px 5px 5px 5px;
 }
 
+/*Iniciando estilo específico del cuadro con texto fijo*/
 #section > .fixed-part {
 	float: left;
 	margin-top: 20px;
@@ -61,6 +63,8 @@ nav {
 	margin-left: 30px;
 }
 
+/*Iniciando estilo de la seccion donde se
+escribe el twitter*/
 .enter-twitter {
 	float: right;
 	margin-top: 20px;
@@ -78,6 +82,7 @@ nav {
 	width: 450px;
 }
 
+/*Estilo del boton tweet*/
 .enter-twitter > a {
   	color: white;
  	display: block;
